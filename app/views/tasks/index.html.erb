@@ -1,0 +1,21 @@
+
+<h1>Ma listes de tâche </h1>
+<div class="my_container">
+  <div class="container">
+      <% @tasks.each do |task| %>
+        <div class="row col-lg-12 flex">
+            <input id="checkBox" type="checkbox">
+            <h3 class="task_title">
+              <%= link_to task.title, task_path(task)%>
+            </h3>
+        </div>
+    <% end %>
+  </div>
+  <div class="container">
+    <h3 class="create"> <i class="fas fa-plus icone_add"></i>
+    <%= link_to "Créer une tache", tasks_new_path %>
+    </h3>
+  </div>
+</div>
+
+

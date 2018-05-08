@@ -1,0 +1,63 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+input {
+
+  border: none ;
+}
+.my_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(204, 229, 255,0.5);
+  align-items: center;
+
+.center_create {
+  text-align: center;
+  // display:flex;
+  // justify-content:center;
+}
+
+.btn {
+  background-color: red !important;
+}
+
+.btn:hover {
+  opacity: 0.8 !important;
+  background-color: red !important;
+
+}
+
+
+
+ // align-items: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+  // justify-content: center;
+
+
+}
+
+.task_title {
+
+  margin-left: 4px;
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: blue;
+}
+
+
+.create {
+  font-size: 15px;
+}
+#checkBox {
+  padding: 0px;
+
+}

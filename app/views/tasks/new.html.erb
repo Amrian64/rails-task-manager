@@ -1,0 +1,28 @@
+
+
+  <div class="my_container">
+    <div class="row center_create">
+    <%= form_for(@task) do |f| %>
+      <%= f.label :title %>
+    </div>
+    <div class="row center_create">
+      <%= f.text_field :title %>
+    </div>
+    <div class="row center_create">
+      <%= f.label :details %>
+    </div>
+    <div class="row center_create">
+      <%= f.text_field :details %>
+    </div>
+    <div class="row center_create">
+      <%= f.label :completed %>
+    </div>
+    <div class="row center_create">
+      <%= f.text_field :completed %>
+    </div>
+    <div class="row center_create ">
+      <%= f.submit %>
+    </div>
+    <% end %>
+  </div>
+
